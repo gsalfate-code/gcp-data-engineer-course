@@ -7,23 +7,23 @@ Este curso integral de Google Cloud Professional Data Engineer te guía desde lo
 ## Comandos Esenciales
 
 1. git clone https://github.com/gsalfate-code/gcp-data-engineer-course.git
-   # Descarga el repositorio completo a tu máquina local.
-   # Crea una copia local de todos los archivos y código del curso.
+   - Descarga el repositorio completo a tu máquina local.
+   - Crea una copia local de todos los archivos y código del curso.
 
 2. gcloud auth application-default login
-   # Autentica tu máquina local con Google Cloud usando credenciales por defecto.
-   # Abre una ventana del navegador para iniciar sesión con tu cuenta de GCP.
+   - Autentica tu máquina local con Google Cloud usando credenciales por defecto.
+   - Abre una ventana del navegador para iniciar sesión con tu cuenta de GCP.
 
 3. gcloud config set project gcp-data-engineer-curso-481317
-   # Configura el proyecto de Google Cloud que se usará por defecto.
-   # Todas las operaciones posteriores se ejecutarán en este proyecto.
+   - Configura el proyecto de Google Cloud que se usará por defecto.
+   - Todas las operaciones posteriores se ejecutarán en este proyecto.
 
 4. python create_bucket.py gcs-bucket-region-test
-   # Ejecuta el script Python para crear un bucket en Cloud Storage.
-   # "gcs-bucket-region-test" es el nombre único del bucket a crear.
-   # Asegúrate de que el nombre sea único globalmente en GCP.
+   - Ejecuta el script Python para crear un bucket en Cloud Storage.
+   - "gcs-bucket-region-test" es el nombre único del bucket a crear.
+   - Asegúrate de que el nombre sea único globalmente en GCP.
 
 5. gsutil rm -r gs://gcs-bucket-region-test
-   # Borra el bucket y todo su contenido de forma recursiva.
-   # Advertencia: Esta acción es permanente e irreversible.
-   # Asegúrate de tener backups si necesitas conservar los datos.
+   - Borra el bucket y todo su contenido de forma recursiva.
+   - Advertencia: Esta acción es permanente e irreversible.
+   - Asegúrate de tener backups si necesitas conservar los datos.
